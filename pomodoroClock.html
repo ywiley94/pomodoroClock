@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wikipedia Viewer</title>
+    
+    <link rel ="stylesheet" type="text/css" href = "style.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cinzel">
+    <script src="javascript.js"></script>
+
+    <audio id = 'buzzer' src = "https://notificationsounds.com/soundfiles/eba0dc302bcd9a273f8bbb72be3a687b/file-a1_ascendent-64kbps.mp3"></audio>
+
+
+
+
+    
+</head>
+<body>
+
+<div class = 'container'>
+    <div id = 'header'>
+        <h1>Pomodoro Clock</h1>
+        <p> freeCodeCamp Project</p>
+        <p> By Yannkick Wiley</p>
+    
+    </div>
+    
+    <div class = 'row'>
+    <div id = 'break' class="col-sm-4">
+        <p>Break Length</p>
+        <p id = 'symbols'>
+            <button id = 'breakDecrease'> - </button>
+            <span id = 'breakNumber'> 5 </span>
+           <button id = 'breakIncrease'> + </button>
+        </p>
+    </div>
+        
+        <div class = "col-sm-4">
+            <button id = "start">Start</button>
+            
+            <button id = "stop">Stop</button>
+        
+            <button id = "reset">Reset</button>
+        </div>
+        
+    <div id = 'session' class=" col-sm-4">
+        <p>Session Length</p>
+        <p id = 'symbols'>
+            <button id = 'sessDecrease'> - </button>
+            <span id = 'sessNumber'> 25 </span>
+            <button id = 'sessIncrease'> + </button>
+        </p>
+    </div>
+    </div>
+    <div id = 'clock'>
+        <h1 id='sessClock'>Session</h1>
+        
+        <p id="timer">25</p>
+    
+    </div>
+    
+    
+    
+    
+
+</div>
+    
+    
+    
+
+    
+</body>
+</html>
